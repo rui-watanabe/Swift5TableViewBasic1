@@ -40,7 +40,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="aa8-Vi-icE"/>
                     <connections>
-                        <segue destination="vfa-DX-mNl" kind="show" id="9Tq-Ny-PiB"/>
+                        <outlet property="tableView" destination="rQg-f0-nEP" id="8Rh-pE-cII"/>
+                        <segue destination="vfa-DX-mNl" kind="show" identifier="next" id="9Tq-Ny-PiB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
